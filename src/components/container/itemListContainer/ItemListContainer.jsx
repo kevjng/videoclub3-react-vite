@@ -10,12 +10,12 @@ const ItemListContainer = ({ greeting }) => {
   const [loading, setLoading] = useState(true);
 
 useEffect(() => {
-        gFetch // simular un llamado a una api
-        .then(resp => setProducts(resp))
-        .catch( err => console.log(err))
-        .finally(() => setLoading(false))
-    }, [])
-;
+   gFetch
+     .then((resp) => setProducts(resp))
+     .catch((err) => console.log(err))
+     .finally(() => setLoading(false));
+ }, []);
+
  
     return loading ? (
         <div className="container-lg mt-5">
@@ -27,8 +27,8 @@ useEffect(() => {
     ) : (
         <ItemsList producto={products} />
     );
- }
+}
 
- 
+
 
 export default ItemListContainer;

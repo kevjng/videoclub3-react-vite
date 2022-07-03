@@ -1,6 +1,6 @@
 
 import { Container } from "react-bootstrap";
-import Items from "../Items/Items.jsx";
+import Items from "../Items/Items";
 
 function ItemsList({ producto }) {
   return (
