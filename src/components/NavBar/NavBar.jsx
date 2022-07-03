@@ -38,10 +38,10 @@ const NavBar = () => {
                 Administrar Perfiles
               </Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item href="#/action-1">Cuenta</Dropdown.Item>
-              <Dropdown.Item href="#/action-1">Centro de ayuda</Dropdown.Item>
+              <Dropdown.Item href="#/action-4">Cuenta</Dropdown.Item>
+              <Dropdown.Item href="#/action-5">Centro de ayuda</Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item href="#/action-4">Cerrar Sesion</Dropdown.Item>
+              <Dropdown.Item href="#/action-6">Cerrar Sesion</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </>
